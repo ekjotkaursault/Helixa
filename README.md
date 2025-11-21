@@ -40,14 +40,69 @@ The purpose of this project is to:
 
 ## Project Structure
 
-/src
-/components
-/pages
-App.js
-index.js
-/public
-package.json
-README.md
+### 📁 Root Folder: client
+
+This is the main frontend folder of your React project. Everything related to the UI lives inside here.
+
+### 📁 node_modules/
+
+This folder contains all the libraries and dependencies installed by npm install
+
+You never edit this folder manually
+
+### 📁 public/
+
+Contains static files like:
+
+index.html
+
+icons
+
+images
+
+This is the file React loads first when your app starts
+
+### 📁 src/
+
+This is the main working folder where you write your code.
+
+### 📁 components/
+
+This is where reusable UI components live
+
+Example: buttons, headers, footers, avatars, message bubbles
+
+### 📁 pages/
+
+This contains full pages/screens of your project:
+
+| File           | Purpose                            |
+| -------------- | ---------------------------------- |
+| `Home.jsx`     | Welcome / landing page UI          |
+| `Home.css`     | Styling for Home page              |
+| `login.jsx`    | Login screen UI                    |
+| `Register.jsx` | Registration screen                |
+| `Chat.jsx`     | Chat UI screen                     |
+| `Chat.css`     | Styling for chat page              |
+| `Auth.css`     | Common styles for login & register |
+
+## Important Files in src/
+
+| File        | Purpose                         |
+| ----------- | ------------------------------- |
+| `App.js`    | Main controller of routes/pages |
+| `App.css`   | Global app styling              |
+| `index.js`  | Entry point of your React app   |
+| `index.css` | Global CSS styles               |
+
+### 📄 Other Important Files
+
+| File                | Purpose                                                |
+| ------------------- | ------------------------------------------------------ |
+| `.gitignore`        | Tells Git what files NOT to upload (like node_modules) |
+| `package.json`      | List of dependencies + scripts                         |
+| `package-lock.json` | Exact version lock for packages                        |
+| `README.md`         | Project documentation                                  |
 
 
 ---
