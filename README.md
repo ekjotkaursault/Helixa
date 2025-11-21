@@ -143,6 +143,6 @@ The prototype has been tested for:
 
 ---
 
-📜 Disclaimer
+##  Disclaimer
 
 This project is developed as an academic prototype for learning and demonstration purposes only.
