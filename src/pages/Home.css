@@ -1,0 +1,96 @@
+/* client/src/pages/Home.css */
+
+.home-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #e0ecf7, #cfd9df);
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  animation: fadeIn 1s ease-in;
+}
+
+.home-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.2);
+  padding: 50px;
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+  animation: float 4s ease-in-out infinite;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  color: #7f5af0;
+}
+
+.home-subtitle {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.helixa-img {
+  width: 160px;
+  animation: float 2.5s ease-in-out infinite;
+  margin-bottom: 30px;
+}
+
+/* Glowing CTA Button */
+.glow-button {
+  background: #ffbd59;
+  color: #111;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 0 15px #ffbd59aa;
+  transition: 0.4s ease;
+}
+
+.glow-button:hover {
+  background: #f57f17;
+  color: #fff;
+  box-shadow: 0 0 25px #f57f17cc;
+}
+
+/* Subtle Float Animation */
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* Fade In */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Centering the button */
+.button-container {
+  margin-top: 25px;
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Adjust image size & position */
+.helixa-img {
+  width: 140px;
+  animation: float 2.5s ease-in-out infinite;
+  margin: 0 auto;
+}
