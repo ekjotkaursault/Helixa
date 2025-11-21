@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+# Helixa – Frontend Prototype (Capstone Project)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
+Helixa is a modern, user-friendly web application prototype developed as part of a capstone project. This project focuses on creating an intuitive frontend interface that allows users to interact with the system easily. The goal of this prototype is to demonstrate the user experience, navigation, and basic functionality of the application.
 
-## Available Scripts
+This version represents the **frontend prototype stage** of the project.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Purpose of the Project
+The purpose of this project is to:
+- Build a working frontend prototype
+- Design user-friendly interfaces
+- Demonstrate real-time interaction through chat UI
+- Practice modern web development skills as part of a capstone milestone
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  Technologies Used
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Node.js (development environment)
+- Git & GitHub
+- VS Code
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Features Implemented
 
-### `npm run build`
+✅ Welcome / Landing Page UI  
+✅ Login Page with form validation  
+✅ Navigation between pages  
+✅ Chat Interface (User & Bot messages)  
+✅ Input field with Send button  
+✅ Clean and responsive design  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+/src
+/components
+/pages
+App.js
+index.js
+/public
+package.json
+README.md
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##  How to Run the Project Locally ?
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project on your system:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository: git clone https://github.com/ekjotkaursault/Helixa.git
 
-## Learn More
+2. Navigate to the project folder: cd client
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Install dependencies: npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Start the development server: npm start
 
-### Code Splitting
+5. Open in browser: http://localhost:3000
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### Testing Details:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The prototype has been tested for:
 
-### Making a Progressive Web App
+--- UI responsiveness
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+--- Button and navigation functionality
 
-### Advanced Configuration
+--- Chat message flow
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+--- Future testing will include:
 
-### Deployment
+--- User authentication validation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+--- API integration
 
-### `npm run build` fails to minify
+--- Performance testing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+📜 Disclaimer
+
+This project is developed as an academic prototype for learning and demonstration purposes only.
