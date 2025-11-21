@@ -29,28 +29,28 @@ The purpose of this project is to:
 
 ##  Features Implemented
 
-✅ Welcome / Landing Page UI  
-✅ Login Page with form validation  
-✅ Navigation between pages  
-✅ Chat Interface (User & Bot messages)  
-✅ Input field with Send button  
-✅ Clean and responsive design  
+ 1. Welcome / Landing Page UI  
+ 2. Login Page with form validation  
+ 3. Navigation between pages  
+ 4. Chat Interface (User & Bot messages)  
+ 5. Input field with Send button  
+ 6. Clean and responsive design  
 
 ---
 
 ## Project Structure
 
-### 📁 Root Folder: client
+### Root Folder: client
 
 This is the main frontend folder of your React project. Everything related to the UI lives inside here.
 
-### 📁 node_modules/
+###  node_modules/
 
 This folder contains all the libraries and dependencies installed by npm install
 
 You never edit this folder manually
 
-### 📁 public/
+###  public/
 
 Contains static files like:
 
@@ -62,17 +62,17 @@ images
 
 This is the file React loads first when your app starts
 
-### 📁 src/
+###  src/
 
 This is the main working folder where you write your code.
 
-### 📁 components/
+###  components/
 
 This is where reusable UI components live
 
 Example: buttons, headers, footers, avatars, message bubbles
 
-### 📁 pages/
+###  pages/
 
 This contains full pages/screens of your project:
 
@@ -95,7 +95,7 @@ This contains full pages/screens of your project:
 | `index.js`  | Entry point of your React app   |
 | `index.css` | Global CSS styles               |
 
-### 📄 Other Important Files
+### Other Important Files
 
 | File                | Purpose                                                |
 | ------------------- | ------------------------------------------------------ |
